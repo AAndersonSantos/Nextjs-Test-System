@@ -22,6 +22,11 @@ A aplicação exibe uma tabela paginada de usuários, com foto, nome, e-mail e l
 ✔️ Layout totalmente responsivo <br>
 ✔️ Fetch de usuários usando API pública randomuser.me <br>
 
+## `🔗 Rotas principais`
+- http://localhost:3000/login
+- http://localhost:3000/register
+- http://localhost:3000/users
+
 ## `🛠️ Tecnologias Utilizadas`
 
 Frontend

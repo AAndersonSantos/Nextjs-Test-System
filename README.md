@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🟣 User Dashboard – Consumo de API Next.js + Tailwind + MUI
 
-## Getting Started
+<h3 align="center">📸Screenshot</h3>
+<p>
+<h1 align="center"><img src="./public/img-login.png"></h1>
+<h1 align="center"><img src="./public/img-register.png"></h1>
+<h1 align="center"><img src="./public/img-table.png"></h1>
 
-First, run the development server:
+## `Sobre`
+Um projeto desenvolvido como parte de um teste técnico, reunindo React/Next.js, TailwindCSS, Material UI, e consumo da API pública RandomUser.me.
 
+A aplicação exibe uma tabela paginada de usuários, com foto, nome, e-mail e localização, além de um layout moderno, responsivo e totalmente estilizado com Tailwind + MUI Theme Customization.
+
+## `🚀 Funcionalidades`
+
+✔️ Listagem de usuários em tabela <br>
+✔️ Paginação funcional <br>
+✔️ Hover nas linhas da tabela <br>
+✔️ Estilização combinando Tailwind + Material UI <br>
+✔️ Fonte customizada (Google Fonts) <br>
+✔️ Tema próprio com cor personalizada purpleTheme <br>
+✔️ Layout totalmente responsivo <br>
+✔️ Fetch de usuários usando API pública randomuser.me <br>
+
+## `🛠️ Tecnologias Utilizadas`
+
+Frontend
+
+- Next.js 16
+- React 18
+- Typescript
+- TailwindCSS
+- Material UI (MUI)
+- Next/Image
+- Google Fonts (Caveat, Poppins)
+
+API
+
+- https://randomuser.me/api/
+
+## `📦 Instalação e Uso`
+Clone o repositório:
+```bash
+git clone git@github.com:AAndersonSantos/Nextjs-Test-System.git
+```
+Instale as dependências:
+```bash
+npm install
+```
+Execute o projeto em modo de desenvolvimento:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Abra no navegador:
+```bash
+http://localhost:3000
+```
+## `🧑‍💻 Autor`
+Anderson Santos
+Desenvolvedor Full Stack
